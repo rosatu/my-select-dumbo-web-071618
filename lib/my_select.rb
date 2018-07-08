@@ -2,8 +2,7 @@ def my_select(collection)
     i = 0
    new_collection = []
    while i < collection.length
-   if 
-     yield(collection[i]) != nil 
+   if yield(collection[i]) != nil 
    new_collection << collection[i]
   end
   i = i + 1
